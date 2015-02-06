@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 6, 2015, 5:39:44 PM
+    Author     : SWARUP SAHA
+*/
+
+.Table{
+    border-collapse: collapse;
+    outline: black thick;
+/*    border:1px solid #000000;*/
+}
+.TableHeader{
+   text-align:center;
+   background:none repeat scroll 0 0 #E5E5E5;
+   border-bottom:1px solid #BBBBBB;
+   padding:16px;
+   outline: aqua;
+/*   background:none repeat scroll 0 0 #B5B5B5;
+   border-bottom:1px solid #000000;  
+   padding:2px;*/
+}
+
+.TableOddRow{
+   text-align:center;
+   background:none repeat scroll 0 0 #FFFFFFF;
+   border-top:1px solid #BBBBBB;
+/*   background:none repeat scroll 0 0 #FFFFFFF;	*/
+}
+
+.TableEvenRow{
+   text-align:center;
+   background:none repeat scroll 0 0 #F9F9F9;
+   border-top:1px solid #BBBBBB;
+/*   background:none repeat scroll 0 0 #D3D3D3;*/
+}

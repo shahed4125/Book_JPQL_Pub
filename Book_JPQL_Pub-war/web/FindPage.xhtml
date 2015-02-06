@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+          Find Page   <BR/><BR/> <BR/><BR/>
+        <h:form>
+            
+            Population :<h:inputText  value="#{datamb.pop}"/><BR/> <BR/> 
+            Rank :<h:inputText  value="#{datamb.rank}"/><BR/><BR/><BR/>
+             
+            <h:commandButton  value="Find Book by Population"  action="#{datamb.findbookbypop()}"  /><BR/><BR/>
+            <h:commandButton  value="Find Publisher By Rating"  action="#{datamb.findpubbyrank()}"  /><BR/><BR/>
+            <h:commandButton  value="Find Book by Rating and Population"  action="#{datamb.findbookbyrankpop()}"  /><BR/><BR/>
+            <h:commandButton value="Home" action="index"/>
+        </h:form>
+    </h:body>
+</html>
+
